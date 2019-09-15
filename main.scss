@@ -184,7 +184,7 @@ th {
       height: 70vh;
     }
     &__img{
-      height: 95%;
+      height: 96%;
       width: 100%;
       background-size: cover;
     }
@@ -217,7 +217,7 @@ th {
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
   .header{
     & figure{
       width: 100%;
@@ -231,13 +231,30 @@ th {
       width: 100%;
       background-size: cover;
     }
+
+    & figcaption{
+      margin: 0;
+      padding: 1rem;
+    }
   }
 
   .stats-info{
     &__batting, &__bowling{
       & table{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
       }
     }
   }
 }
+
+@media screen and (max-width: 450px){
+
+  .stats-info{
+    &__batting, &__bowling{
+      & table{
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
