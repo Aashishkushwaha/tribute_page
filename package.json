@@ -1,0 +1,20 @@
+{
+  "name": "tribute_page",
+  "version": "0.0.1",
+  "description": "Simple Tribute page created using HTML and SCSS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass main.scss style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tribute Page",
+    "HTML",
+    "SCSS"
+  ],
+  "author": "Aashish Kushwaha aashishk1997@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
